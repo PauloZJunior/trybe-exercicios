@@ -2,7 +2,7 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = 0;
 let odd = 0;
-for (let count = 0; count < numbers.length; count ++) {
+for (let count = 0; count < numbers.length; count += 1) {
     console.log(numbers[count]);
     sum += numbers[count];
 
@@ -42,7 +42,7 @@ if (odd === 0) {
 
 let num = [];
 let div2;
-for (let count = 0; count < 25; count ++) {
+for (let count = 0; count < 25; count += 1) {
     num[count] = count + 1;
     div2 = num[count] / 2;
     console.log(num[count] + "/" + 2 + "=" + div2);
